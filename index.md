@@ -11,7 +11,7 @@ Chiesa di _San Francesco_, Piazza San Francesco, 3, 05029 San Gemini (TR) ore 15
 
 {% leaflet_map { "center" : [42.6130651,  12.5439435],
                  "zoom" : 9,
-                 "providerBasemap": "Jawg:light" } %}
+                 "providerBasemap": "Jawg.light" } %}
     {}
 {% endleaflet_map %}
 
