@@ -8,11 +8,13 @@ subtitle: 20 Maggio 2023
 
 ### Cerimonia
 Chiesa di _San Francesco_, Piazza San Francesco, 3, 05029 San Gemini (TR) ore 15:30.
+
 {% leaflet_map { "center" : [42.6130651,  12.5439435],
                  "zoom" : 9,
                  "providerBasemap": "Jawg:light" } %}
     {}
 {% endleaflet_map %}
+
 [Link Google Maps](https://www.google.com/maps/place/Chiesa+di+San+Francesco/@42.6130651,12.5439435,851m/data=!3m2!1e3!4b1!4m5!3m4!1s0x132ee5c3f5e6a077:0x3de741ff3d87d5bf!8m2!3d42.6130651!4d12.5461322 )
 
 ### Parcheggio

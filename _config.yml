@@ -212,11 +212,11 @@ compress_html:
   blanklines: true
 
 plugins:
+  - jekyll-leaflet
   - jekyll-github-metadata
   - jekyll-paginate
   - jekyll-include-cache
   - jekyll-sitemap
-  - jekyll-leaflet
 
 
 # Exclude these files from production site
