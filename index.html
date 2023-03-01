@@ -37,7 +37,7 @@
         <h3 id="cerimonia">Cerimonia</h3>
 <p>Chiesa di <em>San Francesco</em>, Piazza San Francesco, 3, 05029 San Gemini (TR) ore 15:30.</p>
 
-<div id="leaflet-map-128c4a0bc156431771360084a626f9dd" class="leaflet-map"></div>
+<div id="leaflet-map-1282f4e42ee12599ba2fa491eefb9dd6" class="leaflet-map"></div>
 <script>(() => {
 // Specify configuration variables, setup any elements and styling
     var leafletCdn = "https://unpkg.com/leaflet@1.6.0/dist/";
@@ -46,13 +46,13 @@
     // Get tag input arguments & inside block object list
     var tagInputArg = { "center" : [42.6130651,  12.5439435],
                  "zoom" : 9,
-                 "providerBasemap": "Jawg.light" } ;
+                 "providerBasemap": "CartoDB.Positron" } ;
     var blockLeafletItems = [
     {}
 ];
 
     // Override the map div id if specified, apply default CSS
-    var defaultMapElId = "leaflet-map-128c4a0bc156431771360084a626f9dd";
+    var defaultMapElId = "leaflet-map-1282f4e42ee12599ba2fa491eefb9dd6";
    var defaultMapElStyle = "height:300px; margin-top:15px; margin-bottom:15px";
     var mapEl = document.getElementById(defaultMapElId);
     if('divId' in tagInputArg){
@@ -185,7 +185,7 @@
 
 //The actual section that is called that creates a map
     function createMap(){
-        console.log("Creating map 128c4a0bc156431771360084a626f9dd with these args:");
+        console.log("Creating map 1282f4e42ee12599ba2fa491eefb9dd6 with these args:");
         console.log(tagInputArg);
 
         //Initialize Map with the correct input arguments
