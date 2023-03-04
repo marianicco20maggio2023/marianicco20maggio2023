@@ -95,10 +95,8 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-family: 'Gistesy', sans-serif;
+    color: #fff;
 }
 
 @media(min-width:768px) {
@@ -141,7 +139,6 @@ header .intro-text .name {
 }
 
 .navbar {
-    text-transform: uppercase;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
