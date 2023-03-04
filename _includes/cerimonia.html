@@ -1,0 +1,26 @@
+<!-- About Section -->
+<section id="cerimonia">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Cerimonia</h2>
+        <hr class="star-light">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p>Chiesa di <i>San Francesco</i>, Piazza San Francesco, 3, 05029 San Gemini (TR) ore 15:30.</p>
+      </div>
+      <div class="col-lg-8 col-lg-offset-2">
+        {% leaflet_map { "zoom" : 16,
+                 "providerBasemap": "CartoDB.Positron" } %}
+            {% leaflet_marker {"latitude" : 42.6130651,
+                              "longitude" : 12.5439435,
+                              "popupContent": "Chiesa di S. Francesco"} %}
+            {}
+        {% endleaflet_map %}
+      </div>
+    </div>
+  </div>
+</section>
+
