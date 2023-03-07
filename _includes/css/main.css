@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
 }
 
 h1,
@@ -37,7 +37,7 @@ h6 {
 
 hr.star-light,
 hr.star-primary {
-    margin: 25px auto 30px;
+    margin: 15px auto 15px;
     padding: 0;
     max-width: 250px;
     border: 0;
@@ -90,6 +90,14 @@ header .intro-text .name {
     display: block;
     font-family: 'Gistesy', sans-serif;
     color: #fff;
+}
+.navbar-brand{
+    font-family: 'Gistesy', sans-serif;
+    color: #fff;
+    font-size: 70px;
+}
+.navbar-right{
+    text-transform: uppercase;
 }
 
 @media(min-width:768px) {
@@ -456,6 +464,7 @@ footer .footer-below {
 
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
+    border-radius: 5px;
 }
 
 /* Fix modal mouse wheel issues */
