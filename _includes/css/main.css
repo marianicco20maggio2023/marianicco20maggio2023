@@ -93,8 +93,7 @@ header .intro-text .name {
 }
 .navbar-brand{
     font-family: 'Gistesy', sans-serif;
-    color: #fff;
-    font-size: 70px;
+    font-size: 2em;
 }
 .navbar-right{
     text-transform: uppercase;
@@ -103,7 +102,7 @@ header .intro-text .name {
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
-        padding-bottom: 100px;
+        padding-bottom: 200px;
     }
 
     header .intro-text .name {
@@ -124,7 +123,7 @@ header .intro-text .name {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 3em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -141,7 +140,6 @@ header .intro-text .name {
 
 .navbar {
     font-family: 'Playfair Display', serif;
-    font-weight: 700;
 }
 
 .navbar a:focus {
@@ -159,6 +157,8 @@ header .intro-text .name {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background-color: #fff;
+    color: #{{ site.color.secondary }};
 }
 
 section {

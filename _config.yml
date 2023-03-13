@@ -8,8 +8,8 @@ contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: CAE3FF #80B3FF
-  primary-rgb: "202,227,255" #"128,179,255"
+  primary: 2a78df #80B3FF
+  primary-rgb: "42,120,223" #"128,179,255"
   secondary: 164C94 #FD6E8A
   secondary-dark: 113760 #A2122F
 
