@@ -1,0 +1,7 @@
+{% leaflet_map { "zoom" : 16,
+                 "providerBasemap": "CartoDB.Positron" } %}
+    {% leaflet_marker {"latitude" : 42.6130651,
+                       "longitude" : 12.5439435,
+                       "popupContent": "Chiesa di S. Francesco"} %}
+    {}
+{% endleaflet_map %}
